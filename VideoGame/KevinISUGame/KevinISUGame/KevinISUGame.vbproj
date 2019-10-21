@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5F996DE-7101-47E7-826A-94376377B632}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>KevinISUGame.My.MyApplication</StartupObject>
+    <RootNamespace>KevinISUGame</RootNamespace>
+    <AssemblyName>KevinISUGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>KevinISUGame.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>KevinISUGame.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="control.Designer.vb">
+      <DependentUpon>control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="control.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firemaking.Designer.vb">
+      <DependentUpon>firemaking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firemaking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstworld.Designer.vb">
+      <DependentUpon>firstworld.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstworld.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="firstworldsecondpart.Designer.vb">
+      <DependentUpon>firstworldsecondpart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="firstworldsecondpart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lakeshore.Designer.vb">
+      <DependentUpon>lakeshore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lakeshore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movementtest.Designer.vb">
+      <DependentUpon>movementtest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="movementtest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sailingnavigation.Designer.vb">
+      <DependentUpon>sailingnavigation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sailingnavigation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shooterlevel.Designer.vb">
+      <DependentUpon>shooterlevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="shooterlevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variabledeclaration.vb" />
+    <Compile Include="walkingintoshooter.Designer.vb">
+      <DependentUpon>walkingintoshooter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="walkingintoshooter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="control.resx">
+      <DependentUpon>control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firemaking.resx">
+      <DependentUpon>firemaking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstworld.resx">
+      <DependentUpon>firstworld.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="firstworldsecondpart.resx">
+      <DependentUpon>firstworldsecondpart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lakeshore.resx">
+      <DependentUpon>lakeshore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movementtest.resx">
+      <DependentUpon>movementtest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sailingnavigation.resx">
+      <DependentUpon>sailingnavigation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shooterlevel.resx">
+      <DependentUpon>shooterlevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="walkingintoshooter.resx">
+      <DependentUpon>walkingintoshooter.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paper-Grunge-Background-35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85485__jasonelrod__writing-with-pencil.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingbackleftleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingbackrightleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingfront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingfrontleftleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingfrontrightleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingleftbackleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingleftfrontleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingrightbackleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facingrightfrontleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_ngSya_x-boD9SlUupI0-kA.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixel-art-forest-vector-12492952.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettingup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legsbent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lyingdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Assembly-point-right__96218.1519049359.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bamboo-Stick-PNG-Pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_headshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raftforwards.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raftgoingup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raftgoingdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forestatnight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abovediagonal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abovestraight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forestfloor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wolfdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wolfleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wolfright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wolfup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireploughposition1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireploughposition2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireploughposition3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undertale - 031 - Waterfall.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
